@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz mes</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <script type="module" src="js/data.js"></script>
+  <script defer src="js/selectors.js"></script>
+  <script type="module" src="js/pag.js"></script>
+</head>
+
+<body>
+    <header id="main-header">
+        <nav class="navbar">
+          <div class="logo"><img src="assets/ham-svgrepo-com.svg" alt="Logo"></div>
+          <div class="nav_items" id="_items">
+              <a href="index.html">Inicio</a>
+              <a href="#products">Fotos</a>
+              <a href="https://w.app/6x8sxe">Contactame</a>
+          </div>
+          <div class="nav_toggle" id="_toggle">
+              <span></span> 
+              <span></span>
+              <span></span>
+          </div>
+          <form>
+            <button type="button" id="btn-cart">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+              </svg>
+            </button>
+          </form>
+        </nav>
+    </header>
+    <div class="cartTab">
+      <h1>Carrito</h1>
+      <div class="listProduct"></div>
+      <div class="listCart"></div>
+      <div class="btn">
+          <button class="close">Cerrar</button>
+          <button class="checkOut">Guardar</button>
+    </div>
+  </div>
+
+    <main>
+      <section id="home">
+        <div class="assets\image (1).png">
+            <h1>Fotitos con el amor de mi vida</h1>
+        </div>
+        <div class="home-pictures">
+            <div class="home-picture">
+                <img src="assets\Captura de pantalla 2025-03-04 213538.png" alt="Jamon crudo" />
+                <h3>Mi bonita, bonita pero loquita.</h3>
+            </div>
+            <div class="home-picture">
+              <img src="assets\image (5).png" alt="Queso de cabra" />
+              <h3>Nosotros felices.</h3>
+            </div>
+        </div>
+      </section>
+      <section id="about">
+        <h2>Nuestra relacion</h2>
+        <p>
+          Ya estamos juntos hace tanto miamor, me hace tan feliz estar con vos. Hay veces que parece que ya nos estamos acostumbrando a estar juntos, y pum, me enamoras mas.
+           Quiero que sepas que yo quiero estar toda mi vida con vos, y quiero que esto sirva para poder acordarnos de esos momentos juntitos.
+        </p>
+      </section>
+      <section id="products">
+        <h2>Descubre la esencia gourmet en cada uno de nuestros productos.</h2>
+        <ul id="categories">
+          <button id="jamones">Juntitos</button>
+          <button id="salames">Vacaciones</button>
+          <button id="quesos">Mi tikita</button>
+          <button id="todos">Todo</button>
+        </ul>
+        <ul id="list"></ul>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="https://w.app/6x8sxe">Contactame</a>
+        <a href="https://www.instagram.com/nacho123p/">Instagram</a>
+      </nav>
+  </footer>
+</body>
+</html>
