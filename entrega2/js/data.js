@@ -19,6 +19,7 @@ const carta = [
         cardimg: "assets/tikita.jpg",
         category:"quesos",
     },
+
     {
         id: 4,
         name: "Ojitos",
@@ -46,6 +47,27 @@ const carta = [
         
         cardimg: "assets/image (3).png",
         category:"salames",
+    },
+    {
+        id: 8,
+        name: "Asteti",
+       
+        cardimg: "assets/pri.png",
+        category:"quesos",
+    },
+    {
+        id: 9,
+        name: "Barquito",
+        
+        cardimg: "assets/juntos1.png",
+        category:"jamones",
+    },
+    {
+        id: 10,
+        name: "Foto viejita",
+        
+        cardimg: "assets/juntos2.png",
+        category:"jamones",
     },
 ];
 
